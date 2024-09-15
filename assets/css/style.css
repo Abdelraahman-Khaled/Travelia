@@ -108,6 +108,9 @@
 li {
   list-style: none;
 }
+a {
+  cursor: pointer;
+}
 a,
 img,
 span,
@@ -146,6 +149,7 @@ html {
   font-family: var(--ff-poppins);
   font-size: 10px;
   scroll-behavior: smooth;
+  scroll-padding-top: 150px; /* Adjust this value to the height of your header */
 }
 body {
   background-color: var(--bg-lavender-blush);
